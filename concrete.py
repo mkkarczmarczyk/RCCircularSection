@@ -28,7 +28,6 @@ warnings.filterwarnings(
 )
 matplotlib.use("Agg")  # Headless-friendly backend for Streamlit
 
-from sectionproperties.pre.library import concrete_rectangular_section
 from concreteproperties import (
     Concrete,
     ConcreteLinear,
